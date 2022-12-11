@@ -1,5 +1,9 @@
 package com.design.singleton;
 
+/*
+ * Both eager initialization and static block initialization 
+ * create the instance even before it’s being used and that is not the best practice to use
+ */
 public class StaticBlockIntialization {
 	
 	private static StaticBlockIntialization instance;
